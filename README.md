@@ -1,0 +1,1 @@
+# staruml-odoo-lite
