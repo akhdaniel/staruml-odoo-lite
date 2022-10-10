@@ -1,0 +1,70 @@
+{
+    "id": "odoo_lite",
+    "name": "Odoo Lite",
+    "schema": {
+        "odoo.gen": {
+            "text": "Odoo Code Generation",
+            "type": "section"
+        },
+        "odoo.gen.installPath": {
+            "text": "Installation Path",
+            "description": "Installation path of odoo",
+            "type": "string",
+            "default": "#!/usr/bin/python"
+        },
+        "odoo.gen.useTab": {
+            "text": "Use Tab",
+            "description": "Use Tab for indentation instead of spaces.",
+            "type": "check",
+            "default": false
+        },
+        "odoo.gen.indentSpaces": {
+            "text": "Indent Spaces",
+            "description": "Number of spaces for indentation.",
+            "type": "number",
+            "default": 4
+        },
+        "odoo.gen.docString": {
+            "text": "Docstring",
+            "description": "Generate docstrings.",
+            "type": "check",
+            "default": true
+        },
+        "odoo.gen.addonName": {
+            "text": "Namespace",
+            "description": "Class namespace",
+            "type": "string",
+            "default": "my_addon"
+        },
+        "odoo.gen.appName": {
+            "text": "Application Name",
+            "description": "Application name",
+            "type": "string",
+            "default": "my_app"
+        },
+        "odoo.gen.odooVersion": {
+            "text": "Odoo Version",
+            "description": "Odoo Version to generate the addon for",
+            "type": "number",
+            "default": "12"
+        },
+        "odoo.gen.iconName": {
+            "text": "Icon Name",
+            "description": "Odoo Application Icon Name",
+            "type": "string",
+            "default": "icon2"
+        },
+        "odoo.gen.depends": {
+            "text": "Dependencies",
+            "description": "Comma separated dependencies",
+            "type": "string",
+            "default": "'base'"
+        },
+        "odoo.gen.en_language": {
+            "text": "English Language",
+            "description": "Check to add plural 's' on One2many field",
+            "type": "check",
+            "default": true
+        }
+    }
+}

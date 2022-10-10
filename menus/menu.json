@@ -1,0 +1,14 @@
+{
+    "menu": [{
+        "id": "tools",
+        "submenu": [{
+            "label": "Odoo Lite",
+            "id": "tools.odoo_lite",
+            "submenu": [
+                { "label": "Generate Code...", "id": "tools.odoo_lite.generate", "command": "odoo_lite:generate" },
+                { "type": "separator" },
+                { "label": "Configure...", "id": "tools.odoo_lite.configure", "command": "odoo_lite:configure" }
+            ]
+        }]
+    }]
+}
